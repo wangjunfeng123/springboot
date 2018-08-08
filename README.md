@@ -4,15 +4,15 @@
 ### “==” 如果是基本类型：比较的是基本类型的值
 ### 如果是引用类型：比较的是对象的引用     
 ## 2、hashCode 和equals的关系
-## hashCode是为了快速查询而存在的，equals是为了比较值是不是相等而存在的
+#### hashCode是为了快速查询而存在的，equals是为了比较值是不是相等而存在的
 ## 3、编译时优化
-## 为了提升工作效率和节约资源
-##  常见的编译时优化：1常量叠加   “a”+“b”  2 3*4+3  3、final String c = “a”; d = c + “b”;
-##  不会编译时优化：String a = "a" String b = a + "B"  是不会优化的
-##   new String（“eee”），方法执行 也是运行时执行
+#### 为了提升工作效率和节约资源
+####  常见的编译时优化：1常量叠加   “a”+“b”  2 3*4+3  3、final String c = “a”; d = c + “b”;
+####  不会编译时优化：String a = "a" String b = a + "B"  是不会优化的
+####   new String（“eee”），方法执行 也是运行时执行
 ## 4、什么是jit  java
-##   just in time  java 即java实时编译器
-##
+####   just in time  java 即java实时编译器
+## 5、“+” 在字符串拼接中，被编译成append
 ##
 ##
 ##
