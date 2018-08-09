@@ -14,8 +14,8 @@
 ####   just in time  java 即java实时编译器
 ## 5、“+” 在字符串拼接中，被编译成append
 ##
-##
-##
+## 6、HashMap的原理
+### 先根据hash值找到对应的索引，如果不存在链表，直接put上，如果存在链表，则用equals 比较值的大小，如果equals不相等，直接put到map中，如果相等则覆盖掉
 ##
 ##
 ##
